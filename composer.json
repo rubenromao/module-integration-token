@@ -1,0 +1,24 @@
+{
+    "name": "rubenromao/module-testlpw-order-data-amqp",
+    "description": "ERP api integration token",
+    "type": "magento2-module",
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "require": {
+        "magento/framework": "*",
+        "magento/module-integration": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Rubenromao\\TestlpwOrderDataAmq\\": ""
+        }
+    }
+}
+
